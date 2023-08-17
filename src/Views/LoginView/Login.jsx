@@ -3,7 +3,7 @@ import "./Login.css";
 import Logo from "../../assets/Logo.png"
 import LoginPng from "../../assets/login.png"
 
-const Login = () => {
+const Login = ({setShow}) => {
   return (
     <div className="container">
         <div className="right-container">
@@ -26,7 +26,7 @@ const Login = () => {
                             <span >Şifreniz</span>
                             <input placeholder='Şifrenizi Giriniz'/>
                         </div>
-                        <button>Giriş Yap</button>
+                        <button onClick={()=>setShow(true)}>Giriş Yap</button>
                     </div>
                     <div className="login-footer">
                         <h5>Bilgilerinizi hatırlamıyor musunuz?
