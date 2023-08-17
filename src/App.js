@@ -1,12 +1,13 @@
+import Dashboard from "./Views/DashboardView/Dashboard";
 import Login from "./Views/LoginView/Login";
-
 
 
 function App() {
   return (
-<>
-<Login/>
-</>
+<div style={{backgroundColor:"#F9FAFB"}}>
+  {/* <Login/> */}
+<Dashboard/>
+</div>
   );
 }
 

@@ -8,6 +8,7 @@ import Ticket from '../Ticket/Ticket';
 import ActionCard from '../ActionCard/ActionCard';
 import ElectriCard from '../ElectriCard/ElectriCard';
 import TicketListCard from '../TicketListCard/TicketListCard';
+import Graphic from '../Graphic/Graphic';
 
 
 
@@ -20,6 +21,7 @@ const Container = () => {
         <Card png={product} desc={"3 Aktif"}  title={"Aktif Sipariş Sayısı"} show={true}/>
         <Card png={ticketpng} desc={"1 Aktif"}  title={"Bekleyen Ticket"} show={false}/>
       </div>
+      <Graphic/>
     <TicketListCard/>
       </div>
     <div className="left-content">
