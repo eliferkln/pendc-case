@@ -1,0 +1,42 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap:24px;
+    border-radius: 12px;
+    border: 2px solid #EAECF0;
+    width: 248px;
+    height: 90px;
+    position: relative;
+}
+
+.card-desc p{
+    color: #667085;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 24px;
+
+}
+.card-desc h4{
+    color: #344054;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+.card-desc button {
+    color: #FD7E0D;
+    border-radius: 6px;
+    background-color: #f6c69b7b;
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 4px;
+}
