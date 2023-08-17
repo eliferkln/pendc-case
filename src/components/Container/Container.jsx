@@ -6,6 +6,7 @@ import product from "../../assets/order.png"
 import ticketpng from "../../assets/ticket.png"
 import Ticket from '../Ticket/Ticket';
 import ActionCard from '../ActionCard/ActionCard';
+import ElectriCard from '../ElectriCard/ElectriCard';
 
 
 
@@ -24,9 +25,7 @@ const Container = () => {
     <div className="left-content">
   <Ticket/>
   <ActionCard/>
-      <div className="electric">
-
-      </div>
+ <ElectriCard/>
       </div>
    </div></div>
 
