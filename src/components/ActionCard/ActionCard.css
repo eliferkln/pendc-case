@@ -1,0 +1,32 @@
+.action-card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    border-radius: 12px;
+    padding: 5px;
+    border: 2px solid #EAECF0;
+}
+.action-card-container{
+    padding: 16px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 46px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:4px;
+
+}
+.item p{
+    color: #344054;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}

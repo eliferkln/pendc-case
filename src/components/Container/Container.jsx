@@ -5,6 +5,7 @@ import dashboard from "../../assets/product.png"
 import product from "../../assets/order.png"
 import ticketpng from "../../assets/ticket.png"
 import Ticket from '../Ticket/Ticket';
+import ActionCard from '../ActionCard/ActionCard';
 
 
 
@@ -21,12 +22,8 @@ const Container = () => {
       <div className="table"></div>
       </div>
     <div className="left-content">
-    
-<Ticket/>
-
-      <div className="left-content-desc">
-
-      </div>
+  <Ticket/>
+  <ActionCard/>
       <div className="electric">
 
       </div>
