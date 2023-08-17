@@ -1,11 +1,12 @@
+import Login from "./Views/LoginView/Login";
 
 
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+<>
+<Login/>
+</>
   );
 }
 
