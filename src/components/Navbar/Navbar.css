@@ -6,11 +6,11 @@ border-bottom: 1px solid #EAECF0;
 height: 65px;
 
 }
-.logo{
+.logo-nav{
     padding: 20px;
     
 }
-.logo img{
+.logo-nav img{
     height: 21px;
     width: 134px;
 }
@@ -28,7 +28,7 @@ height: 65px;
     width: 100%;
     overflow: hidden;
 padding: 22px;
-gap:45px;
+gap:50px;
 }
 .navigation ul li{
     width: 100%;
@@ -42,7 +42,7 @@ padding-bottom: 20px;
 }
 .user{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     width: 100%;
     margin: 10px;
@@ -66,4 +66,10 @@ padding-bottom: 20px;
     border-bottom: 3px solid #FD7E0D;
    
   
+}
+@media (max-width: 600px){
+
+    .user p {
+display: none;
+    }
 }

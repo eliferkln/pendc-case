@@ -1,4 +1,4 @@
-import Hamburger from "./Hamburger";
+
 import { useState } from 'react';
 import Logo from "../../assets/Logo.png"
 import "./Navbar.css";
@@ -16,13 +16,10 @@ const Navbar = () => {
 
     const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
-    const toggleHamburger = () =>{
-        setHamburgerOpen(!hamburgerOpen)
-    }
 
     return(
         <div className="nav">
-                 <div className="logo">
+                 <div className="logo-nav">
                     <img src={Logo} alt=""/>
                 </div>
             <div className="navigation">
@@ -39,27 +36,15 @@ const Navbar = () => {
 
                     
                 </ul>
-                    <div className="hamburger" onClick={toggleHamburger}>
-                        <Hamburger isOpen={hamburgerOpen}/>
-                    </div>
+             
             </div>
             <div className="user">  <img src={avatar} alt=""/> <div className="desc">
                     Burak Güneş<br/> <p> Pentech Bilişim</p>    </div>   <img src={arrow} alt=""/></div>
 
             <style jsx>{`
 
-.hamburger{
-    display: none ;
-    z-index: 6;
-} 
-                @media (max-width: 1200px){
-                  
-                    .hamburger{
-                        display:block ;
-                        padding-top: 10px;
-                        margin-left: 20px;
-                        z-index: 6;
-                    }
+           @media (max-width: 1200px){
+         
 
                     .navigation ul{
                         display: ${hamburgerOpen ? 'inline' : 'none'};

@@ -93,3 +93,39 @@
     font-weight: 400;
     line-height: 18px;
 }
+.electric-table-container{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 600px){
+    .electri-card{
+        height: 445px;
+
+    }
+
+    .electric-table-container{
+        width: 290px;
+        overflow-x: scroll;
+    }
+    .electric-table-container::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.electric-table-container::-webkit-scrollbar
+{
+	width: 4px;
+    height: 5px;
+	background-color: #F5F5F5;
+}
+
+.electric-table-container::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+}

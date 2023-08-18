@@ -12,6 +12,7 @@ const TicketListCard = () => {
    <img alt='' src={arrow}/>
    </p>
       </div>
+      <div className="ticket-table-container">
       <div className="ticket-card-list-top">
       <ul>
             <li>Ticket Detayı</li>
@@ -41,7 +42,8 @@ const TicketListCard = () => {
             <li> <span>Yanıt Bekleniyor
               </span></li>
         </ul>
-      </div>
+      </div></div>
+    
     </div>
   )
 }

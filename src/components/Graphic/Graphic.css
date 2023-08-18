@@ -75,3 +75,17 @@
     line-height: 20px;
   
 }
+
+@media (max-width: 600px){
+    .graphic-section p{
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 12px;
+    }
+    .graphic-list{
+display: none;
+        
+        
+    }
+
+}

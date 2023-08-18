@@ -15,7 +15,7 @@ const ElectriCard = () => {
             <img alt='' src={arrow}/>
         </div>
     </div>
-    <div className="electric-top">
+    <div className="electric-table-container">    <div className="electric-top">
         <ul>
             <li>Kabin</li>
             <li>Hat</li>
@@ -71,7 +71,8 @@ const ElectriCard = () => {
             <li>Toplam</li>
             <li>81.91</li>
         </ul>
-    </div>
+    </div></div>
+
     <div className="electric-footer">
   <h3> Genel Toplam: 5.835,53 KW/h</h3>  
    <p> Veriler 15 dk. gecikmelidir.</p> 
